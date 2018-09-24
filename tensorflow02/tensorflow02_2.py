@@ -1,4 +1,4 @@
-# 變量
+# 02_2.變量
 import tensorflow as tf
 
 # 01

@@ -1,4 +1,4 @@
-# fetch and feed
+# 03_3.fetch and feed
 import tensorflow as tf
 
 # fetch

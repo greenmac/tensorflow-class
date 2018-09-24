@@ -1,4 +1,4 @@
-# 創建圖,啟動圖
+# 02_1.創建圖,啟動圖
 import tensorflow as tf
 
 m1 = tf.constant([[3, 3]]) # 創建一個常量op
