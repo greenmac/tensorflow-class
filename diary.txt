@@ -1,7 +1,14 @@
 https://www.youtube.com/watch?v=eAtGqz8ytOI&list=PLjSwXXbVlK6IHzhLOMpwHHLjYmINRstrk
 
+$ tensorboard --logdir=E:\python\tensorflow-class\logs   (tensorboard的開啟指令)
+應該會出現下列類似的網址:
+http://DESKTOP-F23MUC7:6006
+
 2018/09/21
 ML-Experience, 01, 02
 
 2018/09/24
 03, 04
+
+2018/09/25
+05, 06, 07, 08
