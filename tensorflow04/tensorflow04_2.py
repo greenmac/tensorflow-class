@@ -56,7 +56,7 @@ with tf.Session(config=tf.ConfigProto(device_count={'gpu':0})) as sess:
     for epoch in range(31): # (step-4 可更改數據的地方)
         for batch in range(n_batch):
             batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-            sess.run(train_step, feed_dict={x:batch_xs, y:batch_ys, keep_prob:0.7}) # 如果keep_prob:0.7,表示上面的神經元只有70%在工作
+            sess.run(train_step, feed_dict={x:batch_xs, y:batch_ys, keep_prob:1.0}) # 如果keep_prob:0.7,表示上面的神經元只有70%在工作
 
         test_acc = sess.run(accuracy, feed_dict={x:mnist.test.images, y:mnist.test.labels, keep_prob:1.0})
         train_acc = sess.run(accuracy, feed_dict={x:mnist.train.images, y:mnist.train.labels, keep_prob:1.0})
