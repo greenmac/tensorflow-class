@@ -8,7 +8,7 @@ x_data = np.linspace(-0.5, 0.5, 200)[:, np.newaxis]
 noise = np.random.normal(0, 0.02, x_data.shape) # x_data.shape(陣列長度縮寫,ex[4,]))
 y_data = np.square(x_data) + noise # square平方
 
-# 定應兩個placeholder
+# 定義兩個placeholder
 x = tf.placeholder(tf.float32, [None, 1])
 y = tf.placeholder(tf.float32, [None, 1])
 
